@@ -15,7 +15,7 @@ jobs:
         run: |
           npm i
           sudo npm i -g @angular/cli
-          ng build --prod=true --aot=true
+          ng build --prod=true --aot=true --deploy-url /password-manager/
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
