@@ -1,1 +1,16 @@
-<mat-card fxFlex="330px">Simple card</mat-card>
+<mat-card fxFlex="330px">
+    <form>
+        <mat-form-field appearance="outline">
+            <mat-label>Email</mat-label>
+            <input matInput placeholder="someone@example.com" type="email" [(ngModel)]="email" name="email" required>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Password</mat-label>
+            <input matInput placeholder="********" type="password" [(ngModel)]="password" name="password" required>
+        </mat-form-field>
+        <div fxLayout="row">
+            <div fxFlex="1 1 auto"></div>
+            <button mat-raised-button color="accent" type="submit">Sign In</button>
+        </div>
+    </form>
+</mat-card>
