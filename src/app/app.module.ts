@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { NavbarComponent } from './layout/navbar/navbar.component';
+import { NavbarComponent } from './layout/shared/navbar/navbar.component';
+import { LandingComponent } from './layout/landing/landing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavbarComponent
+    NavbarComponent,
+    LandingComponent
   ],
   imports: [
     BrowserModule,
