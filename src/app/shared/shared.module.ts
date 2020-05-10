@@ -10,10 +10,10 @@ import { FlexLayoutModule } from '@angular/flex-layout';
   declarations: [],
   imports: [
     CommonModule,
-    FlexLayoutModule
   ],
   exports: [
-    MaterialModule
+    MaterialModule,
+    FlexLayoutModule
   ]
 })
 export class SharedModule { }

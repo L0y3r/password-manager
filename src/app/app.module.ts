@@ -9,12 +9,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { NavbarComponent } from './layout/shared/navbar/navbar.component';
 import { LandingComponent } from './layout/landing/landing.component';
+import { LoginComponent } from './layout/landing/login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    LandingComponent
+    LandingComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
